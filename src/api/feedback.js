@@ -7,7 +7,7 @@ async function sendFeedback({ name, phone, message }) {
       name,
       phone,
       message,
-      type: "telegram-bot",
+      type: "max-bot",
     },
   );
   return response.data;
